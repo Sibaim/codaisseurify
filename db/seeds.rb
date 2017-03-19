@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#Artists
+taylor = Artist.create(name:"Taylor Swift", picture:"http://res.cloudinary.com/dxfy5wpqt/image/upload/v1489870469/codaisseurify/swift.jpg")
+
+
+
+#songs
+blank = Song.create(name:"Blank Space", artist:taylor)
+blank = Song.create(name:"Wildest Dreams", artist:taylor)
